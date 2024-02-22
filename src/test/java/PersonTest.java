@@ -18,7 +18,7 @@ public class PersonTest {
     @Test
     public void isAdultTest(){
         //Arrange
-        Person p = new Person("GHIS","Ibrahim",18);
+        Person p = new Person("GHIS","Ibrahim",19);
         //Act
         Boolean result = p.isAdult();
         //Assert

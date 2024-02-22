@@ -32,6 +32,7 @@ public class Stack {
     public int size() {
         return top + 1;
     }
+
     private void expandArray() {
         int[] newArray = new int[array.length * 2];
         System.arraycopy(array, 0, newArray, 0, array.length);
